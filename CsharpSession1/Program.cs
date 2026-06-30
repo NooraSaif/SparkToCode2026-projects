@@ -22,7 +22,7 @@
             double BMIResult = weight / (height * height);
             Console.WriteLine("Your BMI is: " + BMIResult);
 
-
+            // using if else statement to check the BMI result
             if (BMIResult < 18.5)
             {
                 Console.WriteLine("underweight");
@@ -66,6 +66,7 @@
             //Console.WriteLine("Comparison result: " + comparisonResult);
             /////////////////////////////////////////////////////////////////
 
+            //switch case statement example:
             //Console.WriteLine("welcome to main menu:");
             //Console.WriteLine("1.Deposite");
             //Console.WriteLine("2.Withdraw");
